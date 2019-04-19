@@ -21,7 +21,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textSize="24sp"
-        android:textColor="#ffffffff"/>
+        android:textColor="#ffffffff"
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/buttonTop"
@@ -36,7 +37,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="15sp"/>
+        android:textSize="15sp"
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/buttonBottom"
@@ -50,7 +52,8 @@
         android:layout_alignEnd="@+id/buttonTop"
         android:background="#3498db"
         android:textColor="#ecf0f1"
-        android:textSize="15sp"/>
+        android:textSize="15sp"
+        android:freezesText="true"/>
 
 
 
